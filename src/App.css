@@ -1,38 +1,68 @@
 .App {
+  justify-content: center;
+  align-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.add {
+  margin-top: 60px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Trail{
+  margin-top: 60px;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  color: blueviolet;
+  padding: 24px 0px 20px;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label {
+  display: inline-block;
+  width: 43px;
+  height: 23px;
+}
+
+input{
+  width: 183px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  display: flex;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.Card {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Stars {
+  display: flex; 
+  justify-content: center;
 }
